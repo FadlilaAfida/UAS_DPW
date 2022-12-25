@@ -1,0 +1,139 @@
+
+.header .logo img{
+    margin-top: -110px;
+    height: 300px;
+} 
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2em;
+}
+.box{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slideshow-container,.about,.member{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.header .navbar{
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+}
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:black;
+}
+.header .navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div{
+    color:black;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color:var(--main-color);
+}
+
+.member .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    text-align: center
+}
+
+.member .box-container .box{
+    padding: auto;
+    border:var(--border);    
+}
+
+.member .box-container .box img{
+    height: 10rem;
+}
+
+.member .box-container .box h3{
+    color: black;
+    font-size: 20px;
+}
+.mv .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.mv .box-container .box{
+    padding: auto;
+    text-align: center;
+    border:var(--border);    
+}
+
+.mv .box-container .box img{
+    height: 10rem;
+}
+
+.mv .box-container .box h3{
+    color: black;
+    font-size: 20px;
+}
+.contact .medsos{
+    display: grid;
+}
+.footer{
+    margin-top: 400px;
+    list-style-type: none;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer .links{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    text-decoration: none;
+    padding:.7rem 2rem;
+    color:white;
+    border:var(--border);
+    font-size: 30px;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+.footer .credit{
+    margin-top: -50px;
+    font-size:30px;
+    color:white;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
